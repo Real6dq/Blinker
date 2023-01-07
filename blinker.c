@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    // Set the volume to 50% of the maximum volume
+    // Set the volume to 20% of the maximum volume
     unsigned long volume = 0xFFFFFFFF * 0.2;
     waveOutSetVolume(0, volume);
 
